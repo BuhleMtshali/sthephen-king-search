@@ -5,5 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sthephen King</title>
   </head>
-  <body></body>
+  <style>
+    /* Making our circle look nice */
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; /* Makes it a circle */
+      border: 10px solid lightgrey; /* The empty part */
+      border-top-color: green; /* The filling color */
+      transform: rotate(-90deg); /* Starts from the top */
+    }
+  </style>
+  <body>
+    <div class="circle" id="progressCircle">
+      <button onclick="increaseProgress()">Click me!</button>
+    </div>
+    <!-- Our button -->
+
+    <script src="app.js"></script>
+  </body>
 </html>
